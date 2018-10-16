@@ -95,6 +95,7 @@ export class HelpPopover extends React.Component<Props> {
                             href={`https://github.com/sourcegraph/issues/issues/new?template=${template}`}
                             target="_blank"
                             rel="noreferrer"
+                            key={i}
                         >
                             <strong>{title} &raquo;</strong>
                             <br />
